@@ -1,0 +1,74 @@
+﻿/* 1 整体 */
+body{
+	background-color:rgb(234,234,209);
+	margin:0px auto;
+	color: #222222;
+	font-family: Verdana, Georgia, Lato, 微软雅黑, Lustria, "PT Serif", Times, serif;
+}
+
+/* 2 结构与文字 */
+header#head{
+	width: 100%;
+	background-color: rgb(64,116,180);
+	height: 80px;
+	padding: 20px 0px 30px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: #d8d8d8;
+}
+div#mainpart{
+	width: 52%;
+	margin: 150px auto 0;
+	background-color: white;
+	padding: 40px;
+}
+h1{
+	font-family: "Lucida Console", Georgia, NSimSun, serif;
+	
+}
+h2{
+	font-family: Helvetica, Gabriela, Arial, STKaiti, Georgia, NSimSun, serif;
+	font-weight: 100;
+	font-size: 150%;
+}
+h3{
+	font-family: Helvetica, Gabriela, Arial, STKaiti, Georgia, NSimSun, serif;
+	font-weight: 100;
+	font-size: 110%;
+}
+a{
+	text-decoration:none;
+	color:#3399cc;
+}
+footer{
+	margin:20px auto;
+	color:#444444;
+}
+footer p{
+	text-align:center;
+	font-size:80%;
+}
+
+table{
+	border-collapse:collapse;
+	margin:20px auto;
+	width:100%;
+}
+th, td{
+	border: 1px #ccc solid;
+	vertical-align: middle;
+	padding: 5px 10px;
+}
+th{
+	text-align:center;
+}
+hr{
+	border: 0;
+	outline: none;
+	height: 11px;
+	background:	transparent url("./hr.gif") center center repeat-x;
+	margin: 0 0 20px;
+}
