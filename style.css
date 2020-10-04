@@ -1,12 +1,9 @@
-/* 1 整体 */
 body{
 	background-color:rgb(234,234,209);
 	margin:0px auto;
 	color: #222222;
 	font-family: Verdana, Georgia, Lato, 微软雅黑, Lustria, "PT Serif", Times, serif;
 }
-
-/* 2 结构与文字 */
 header#head{
 	width: 100%;
 	background-color: rgb(64,116,180);
@@ -71,4 +68,7 @@ hr{
 	height: 11px;
 	background:	transparent url("./hr.gif") center center repeat-x;
 	margin: 0 0 20px;
+}
+.ico img{
+	height: 18px;
 }
