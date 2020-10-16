@@ -17,7 +17,7 @@ header#head{
 	color: #d8d8d8;
 }
 div#mainpart{
-	width: 52%;
+	width: 55%;
 	margin: 150px auto 0;
 	background-color: white;
 	padding: 40px;
@@ -70,5 +70,6 @@ hr{
 	margin: 0 0 20px;
 }
 .ico img{
-	height: 18px;
+	height: 20px;
+	vertical-align:middle;
 }
