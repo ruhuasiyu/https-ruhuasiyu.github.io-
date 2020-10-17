@@ -1,8 +1,9 @@
 body{
 	background-color:rgb(234,234,209);
-	margin:0px auto;
+	margin: 0px auto;
 	color: #222222;
 	font-family: Verdana, Georgia, Lato, 微软雅黑, Lustria, "PT Serif", Times, serif;
+	font-size: 16px;
 }
 header#head{
 	width: 100%;
@@ -17,7 +18,7 @@ header#head{
 	color: #d8d8d8;
 }
 div#mainpart{
-	width: 55%;
+	width: 52%;
 	margin: 150px auto 0;
 	background-color: white;
 	padding: 40px;
