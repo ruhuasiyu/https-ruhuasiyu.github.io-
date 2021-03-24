@@ -62,7 +62,9 @@ footer p{
 	text-align:center;
 	font-size:80%;
 }
-
+li{
+	margin-bottom: 5px;
+}
 table{
 	border-collapse:collapse;
 	margin:20px auto;
