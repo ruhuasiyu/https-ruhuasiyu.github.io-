@@ -22,7 +22,7 @@
 				for(j=0;j<i;j++){
 					if(rd==rds[j])break;
 				}
-				if(j==i)rd[i]=rd;
+				if(j==i)rds[i]=rd;
 			}while(j<i);
 			document.getElementsByClassName("img")[i].getAttributeNode("src").value="img/"+rd+".png";
 		}
