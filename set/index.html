@@ -15,7 +15,6 @@
 		var rd;
 		var rds=[0,0,0,0,0,0,0,0,0,0,0,0];
 		var imgs=document.getElementsByClassName("img");
-		var str="";
 		var j;
 		for(var i=0;i<12;i++){
 			do{
@@ -26,7 +25,6 @@
 				if(j==i)rd[i]=rd;
 			}while(j<i);
 			document.getElementsByClassName("img")[i].getAttributeNode("src").value="img/"+rd+".png";
-			document.getElementById("test").innerHTML=str;
 		}
 	}
 </script>
