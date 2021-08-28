@@ -1,10 +1,10 @@
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 760px) {
 	div#mainpart{
-		width: 770px;
+		width: 780px;
 		margin: 130px auto 0;
 	}
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 760px) {
 	div#mainpart{
 		width: 100%;
 		margin: 120px auto 0;
@@ -38,17 +38,28 @@ div#mainpart{
 }
 h1{
 	font-family: "Lucida Console", Georgia, NSimSun, serif;
-	
 }
 h2{
 	font-family: Helvetica, Gabriela, Arial, STKaiti, Georgia, NSimSun, serif;
 	font-weight: 5000;
 	font-size: 150%;
 }
+h2::before{
+	content: "▹ ";
+}
 h3{
 	font-family: Helvetica, Gabriela, Arial, STKaiti, Georgia, NSimSun, serif;
 	font-weight: 100;
 	font-size: 110%;
+	margin-bottom: -6px;
+}
+h3::before{
+	content: "▸ ";
+}
+h4{
+	font-family: Helvetica, Gabriela, Arial, STKaiti, Georgia, NSimSun, serif;
+	margin-bottom: -10px;
+	padding-left: 30px;	
 }
 a{
 	text-decoration:none;
@@ -64,6 +75,7 @@ footer p{
 }
 li{
 	margin-bottom: 5px;
+	margin-left: -10px;
 }
 table{
 	border-collapse:collapse;
